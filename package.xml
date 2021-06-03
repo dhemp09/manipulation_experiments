@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>uml_hri_nerve_pick_and_place</name>
+  <name>manipulation_experiments</name>
   <version>0.0.0</version>
-  <description>The uml_hri_nerve_pick_and_place package</description>
+  <description>pick and place code for manipulation experiments</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

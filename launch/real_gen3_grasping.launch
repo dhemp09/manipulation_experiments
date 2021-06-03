@@ -2,7 +2,7 @@
         Launches GPD, Vision, and Pick/place node -->
 <launch>
 
-    <include file="$(find gpd_ros)/launch/gen3.launch"/>
+    <include file="$(find manipulation_experiments)/GPD_Files/gen3.launch"/>
 
     <include file="$(find kinova_vision)/launch/kinova_vision.launch">
         <arg name="device" value="192.168.1.10"/>

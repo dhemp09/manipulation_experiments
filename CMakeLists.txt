@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(uml_hri_nerve_pick_and_place)
+project(manipulation_experiments)
 
 add_compile_options(-std=c++11)
 
