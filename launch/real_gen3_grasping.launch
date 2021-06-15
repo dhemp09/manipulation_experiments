@@ -7,9 +7,9 @@
     <include file="$(find kinova_vision)/launch/kinova_vision.launch">
         <arg name="device" value="192.168.1.10"/>
     </include>
-
+    <param name="planning_group" type="string" value="arm" />
     <group ns = "/my_gen3">
-        <node pkg="uml_hri_nerve_pick_and_place" name="gpd_grasping_node" type="basic_manipulation_and_3d_perception" output="screen"/>
+        <node pkg="manipulation_experiments" name="gpd_grasping_node" type="gpd_grasping_node" output="screen"/>
     </group>
 
 </launch>
